@@ -1,8 +1,8 @@
-export default function Terms() {
+export default function Privacy() {
 
     return (
         <div>
-            <h1 className="font-semibold text-3xl text-white/75">Terms of Service for Axium</h1>
+            <h1 className="font-semibold text-3xl text-white/75">Privacy Policy for Axium</h1>
             <p className="text-sm text-white/30 mb-4">Last Update: 28.07.2024 🆕️</p>
             <div className="animateHeader text-white text-opacity-40 mt-5">
                 <p>⊳ To use the Axium bot, you must define the necessary permissions when adding it to your discord server. <a className="text-white">(READ MESSAGES, SEND MESSAGES, EMBED LINKS, ATTACH FILES, READ MESSAGE HISTORY, CONNECT, SPEAK, USE VOICE ACTIVITY, PRIORITY SPEAKER)</a></p>
