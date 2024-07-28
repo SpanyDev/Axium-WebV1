@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="apple-touch-icon" href="/logo.jpg" />
+          <link rel="apple-touch-icon" href="/logo.png" />
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
           <meta
@@ -25,7 +25,7 @@ class MyDocument extends Document {
             property="og:description"
             content="Axium is built to protect and monitor your Discord servers. Completely innovative systems are used."
           />
-          <meta property="og:image" content="/img/logo.jpg" />
+          <meta property="og:image" content="/img/logo.png" />
           <meta property="og:image:alt" content="Axium" />
           <meta property="og:locale" content="en_GB" />
           <meta
@@ -33,7 +33,7 @@ class MyDocument extends Document {
             content="Axium"
           />
           <meta name="theme-color" content="#087ddd" />
-          <link rel="icon" href="/img/logo.jpg" type="image/x-icon" />
+          <link rel="icon" href="/img/logo.png" type="image/x-icon" />
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
             rel="stylesheet"
