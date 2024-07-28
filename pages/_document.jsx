@@ -11,7 +11,7 @@ class MyDocument extends Document {
           <meta name="googlebot" content="index,follow" />
           <meta
             name="description"
-            content="How about listening to music without pausing? Create your own playlists with 750+ supported sound platforms and start listening."
+            content="Axium is built to protect and monitor your Discord servers. Completely innovative systems are used."
           />
           <meta property="og:url" content="https://axium.me" />
           <meta property="og:type" content="website" />
