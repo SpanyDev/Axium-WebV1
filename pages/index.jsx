@@ -9,6 +9,9 @@ export default function Index() {
         <div className="flex w-full justify-center">
       <img width="250" src="/img/logo.png" />
 	<br />
+	<br />
+	<br />
+	<br />
       </div>
         <p className="animateHeader text-4xl font-extrabold text-center text-white">
           Axium
