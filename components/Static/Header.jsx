@@ -168,7 +168,7 @@ const Header = ({ $, NavItems }) => {
                         </Menu>
                         <Link href="https://discord.com/oauth2/authorize?client_id=965432989360193566&permissions=8&scope=applications.commands%20bot">
                             <a className="w-auto flex items-center justify-center shadow-lg gap-x-2 shadow-amber-600/20 rounded-xl py-2.5 font-medium px-7 bg-gradient-to-tl from-amber-500 to-amber-700 text-white  hover:opacity-80 transition duration-200">
-                               Invite
+                               <i className="fab fa-discord mr-2" />Invite </a>
                             </a>
                </Link>
                     </div>
