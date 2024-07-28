@@ -14,23 +14,61 @@ export default function Footer() {
                                 <img src="/img/logo2.png" className="rounded-full w-12" />
                                 <p className="font-semibold text-xl text-white">Axium</p>
                             </div>
-                            <Menu as="div" className="relative mt-3 inline-block text-left">
-                                <div>
-                                    <Menu.Button className="flex z-1 items-center w-full px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-                                        <img
-                                            src={`https://flagcdn.com/w80/gb.png`}
-                                            width="24"
-                                            height="18"
-                                            className="mr-2 h-4 rounded-sm"
-                                        />
-                                        English
-                                        <ChevronDownIcon
-                                            className="w-5 h-5 ml-2 -mr-1 transform rotate-180 text-violet-200 hover:text-violet-100"
-                                            aria-hidden="true"
-                                        />
-                                    </Menu.Button>
-                                </div>
-                            </Menu>
+<Menu as="div" className="relative mt-3 inline-block text-left">
+  <div>
+    <Menu.Button className="flex z-1 items-center w-full px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+      <img
+        src={`https://flagcdn.com/w80/gb.png`}
+        width="24"
+        height="18"
+        className="mr-2 h-4 rounded-sm"
+      />
+      English
+      <ChevronDownIcon
+        className="w-5 h-5 ml-2 -mr-1 transform rotate-180 text-violet-200 hover:text-violet-100"
+        aria-hidden="true"
+      />
+    </Menu.Button>
+    <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right bg-black rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+      <div className="p-1">
+        <Menu.Item>
+          {({ active }) => (
+            <button
+              className={`${
+                active ? 'bg-gray-800 text-white' : 'text-gray-300'
+              } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+            >
+              <img
+                src={`https://flagcdn.com/w80/gb.png`}
+                width="24"
+                height="18"
+                className="mr-2 h-4 rounded-sm"
+              />
+              English
+            </button>
+          )}
+        </Menu.Item>
+        <Menu.Item>
+          {({ active }) => (
+            <button
+              className={`${
+                active ? 'bg-gray-800 text-white' : 'text-gray-300'
+              } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+            >
+              <img
+                src={`https://flagcdn.com/w80/tr.png`}
+                width="24"
+                height="18"
+                className="mr-2 h-4 rounded-sm"
+              />
+              Türkçe
+            </button>
+          )}
+        </Menu.Item>
+      </div>
+    </Menu.Items>
+  </div>
+</Menu>
                         
                         </div>
                         <div className="col-span-1">
